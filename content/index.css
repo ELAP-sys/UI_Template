@@ -350,7 +350,7 @@ body.light header {
     }
 
     body.light header {
-      background: rgba(255,255,255,0.9);
+      background: #fff;
     }
 
     body.light footer {
@@ -384,7 +384,7 @@ body.light header {
       
       .hero {
         padding: 60px 24px;
-        height: 70vw;
+        height: 60vw;
       }
 
       .scrl-butt {
