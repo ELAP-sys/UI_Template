@@ -458,6 +458,7 @@ body.light .footer-section a {
   }
   
   .hero {
+    background-size: contain;
     padding: 64px 24px;
     height: 80vw;
   }
@@ -475,7 +476,7 @@ body.light .footer-section a {
     display: grid;
     grid-template-rows: 6fr 2fr;
     justify-items: right;
-    height: 120vw;
+    height: 125vw;
   }
   
   .box {
