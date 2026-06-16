@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عضویت - گربه سیاه</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="icon" type="image/x-icon" href="../media/icon/iicon2.png">
+</head>
+
+<body>
+    <div class="divcont">
+        <form class="container-form" action="" method="post">
+            <div class="divcont">
+                <fieldset>
+                    <legend>ثبت نام</legend>
+                    <hr>
+                    <div class="form-head">
+                        <label for="LName">نام و نام خانوادگی</label><input type="text" name="LName" id="LName">
+                        <label for="UName">نام کاربری</label><input type="text" name="UName" id="UName">
+                        <label for="Email">ایمیل</label><input type="email" name="Email" id="Email">
+                        <label for="PhNum">شماره موبایل</label><input type="tel" name="PhNum" id="PhNum"
+                            placeholder="0-911-111-1111" pattern="[0]{1}[9]{1}[0-9]{9}" required>
+                    </div>
+                    <div class="radbutt">
+                        <label for="Sex">جنسیت:</label>
+                        <label for="sex">مرد</label>
+                        <input type="radio" name="Sex" id="Sex" value="مرد">
+                        <label for="sex">زن</label>
+                        <input type="radio" name="Sex" id="Sex" value="زن">
+                        <label for="sex">دیگر</label>
+                        <input type="radio" name="Sex" id="Sex" value="دیگر">
+                    </div><br>
+                    <label for="BDate">تاریخ تولد</label><input type="date" name="BDate" id="BDate">
+                    <label for="City">شهر شما</label>
+                    <select name="City" id="City">
+                        <option value="Tehran">تهران</option>
+                        <option value="Isfahan">اصفهان</option>
+                        <option value="Shiraz">شیراز</option>
+                    </select>
+                    <div class="form-but">
+                        <label for="PassFirst">رمز عبور</label>
+                        <input type="password" name="PassFirst" id="PFirst" placeholder="رمز جدید">
+                        <input type="submit" value="ثبت" class="subbot">
+                    </div>
+                </fieldset>
+            </div><br>
+            <a href="./login.html" id="but">قبلا ثبت نام کرده‌اید؟</a>
+        </form>
+    </div>
+</body>
+
+</html>

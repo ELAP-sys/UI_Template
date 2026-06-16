@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Vazirmatn;
+    src: url(../Font/Vazirmatn-Medium.woff2) format("woff2");
+}
+
+body {
+    background-image: url("..//media/landdark.jpg");
+    font-family: Vazirmatn;
+    height: min-content;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+
+
+fieldset {
+    border-style: hidden;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+body {
+    scrollbar-width: none;
+}
+
+.container-form {
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: centers;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(13px);
+    width: 50%;
+    padding: 0rem;
+
+}
+
+.divcont {
+    display: flex;
+    justify-content: center;
+}
+
+legend {
+    text-align: center;
+}
+
+.form-head {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+
+input {
+    padding: .5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+
+.radbutt {
+    display: flex;
+    flex-direction: row;
+}
+
+.subbot {
+    width: 90%;
+}
+
+#PFirst {
+    width: 80%;
+}
+
+#City {
+    height: 2rem;
+    padding-top: .5rem;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    margin: .04rem;
+}
+
+hr {
+    width: 70%;
+    border: 1px solid white;
+}
+
+.form-but {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#but {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
